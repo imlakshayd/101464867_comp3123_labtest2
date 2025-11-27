@@ -39,15 +39,8 @@ The app uses the OpenWeatherMap API. The API key is currently configured in `src
 ## Screenshots
 *(Add screenshots here)*
 
-## Deployment to Vercel
-
-1.  **Push to GitHub**: Ensure your project is pushed to your GitHub repository.
-2.  **Sign Up/Login**: Go to [Vercel](https://vercel.com) and sign up using your GitHub account.
-3.  **Add New Project**:
-    - Click **"Add New..."** -> **"Project"**.
-    - Import your `101464867_comp3123_labtest2` repository.
-4.  **Configure**:
-    - Vercel will automatically detect `Create React App`.
-    - Leave the build settings as default.
-    - Click **"Deploy"**.
-5.  **Done**: Once finished, Vercel will give you a live URL (e.g., `https://your-project.vercel.app`).
+## Deployment
+This app is ready to be deployed on platforms like Vercel, Netlify, or Render.
+1.  Push code to GitHub.
+2.  Import project into Vercel/Render.
+3.  Deploy.

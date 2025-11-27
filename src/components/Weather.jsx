@@ -97,6 +97,20 @@ const Weather = () => {
                             <span>Wind Speed</span>
                             <span>{weatherData.wind.speed} m/s</span>
                         </div>
+                        <div className="detail-item">
+                            <span>Visibility</span>
+                            <span>{(weatherData.visibility / 1000).toFixed(1)} km</span>
+                        </div>
+                        <div className="detail-item">
+                            <span>Clouds</span>
+                            <span>{weatherData.clouds.all}%</span>
+                        </div>
+                        {weatherData.snow && (
+                            <div className="detail-item">
+                                <span>Snow (1h)</span>
+                                <span>{weatherData.snow['1h']} mm</span>
+                            </div>
+                        )}
                     </div>
                 </div>
             )}
