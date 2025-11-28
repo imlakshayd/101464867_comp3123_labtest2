@@ -5,7 +5,7 @@ A React application that displays real-time weather data for any city using the 
 ## Features
 - Search for weather by city name.
 - Displays temperature, weather condition, humidity, wind speed, and "feels like" temperature.
-- Dynamic background and premium UI design.
+- Dynamic background and simple UI design.
 - Responsive layout.
 
 ## Tech Stack
@@ -37,10 +37,7 @@ A React application that displays real-time weather data for any city using the 
 The app uses the OpenWeatherMap API. The API key is currently configured in `src/services/weatherService.js`.
 
 ## Screenshots
-*(Add screenshots here)*
+![Screenshot](screenshots\screenshot.png "Screenshot")  
 
-## Deployment
-This app is ready to be deployed on platforms like Vercel, Netlify, or Render.
-1.  Push code to GitHub.
-2.  Import project into Vercel/Render.
-3.  Deploy.
+## Deployment 
+This app is deployed on https://101464867-comp3123-labtest2.vercel.app/

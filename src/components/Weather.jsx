@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { fetchWeather } from '../services/weatherService';
-import './Weather.css'; // We'll create this or put styles in index.css
+import './Weather.css';
 
 const Weather = () => {
     const [city, setCity] = useState('');
